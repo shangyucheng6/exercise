@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 20px;
+        }
+    </style>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    
+</head>
+<body>
+    <form>    <div class="big">大字体</div>          <div class="small">小字体</div> </form>   
+</body>
+<script>
+    $(function(){
+        $("div  .big").click(function(){
+            alert("ok");
+        })
+    })
+   
+</script>
+</html>
